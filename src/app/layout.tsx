@@ -10,11 +10,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="es">
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>SonríeSalud | Armonización Orofacial y Odontología</title>
-        {/* En un proyecto real, aquí puedes añadir favicon, metatags SEO adicionales, etc. */}
-      </head>
-      <body>{children}</body>
-    </html>
-  );
+        <meta charSet="UTF-8"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <title>SonríeSalud | Armonización Orofacial y Odontología</title>
+            <script src="https://cdn.tailwindcss.com"></script>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+            </head>
+            <body>{children}</body>
+          </html>
+          );
 }
