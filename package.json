@@ -1,0 +1,26 @@
+{
+  "name": "faviana-dental-clinic",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
+    "@types/node": "24.0.1",
+    "@types/react": "19.1.8",
+    "autoprefixer": "latest",
+    "gh-pages": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "5.8.3"
+  }
+}

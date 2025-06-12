@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Puedes añadir aquí cualquier CSS global adicional si lo necesitas.
+  Sin embargo, la filosofía de Tailwind es usar clases utilitarias directamente en el HTML/JSX.
+*/
